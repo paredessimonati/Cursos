@@ -1,0 +1,12 @@
+If songs.db contains the top 100 songs of one listener from 2018, how would you characterize their audio aura?
+
+SELECT ((AVG(energy) + AVG(valence) + AVG(danceability))/3) FROM songs;
+0.619987666666666
+
+According to that, a little Pink maybe?
+
+
+Hypothesize about why the way you’ve calculated this aura might not be very representative of the listener. What better ways of calculating this aura would you propose?
+
+Maybe have an AI go through all the lyrics and classify them by mood, message, novelty, and other parameters.
+Add them to the metadata and try to consider all that information, with more data points we could have a more accurate result.

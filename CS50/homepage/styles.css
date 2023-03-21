@@ -1,0 +1,119 @@
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+}
+
+body
+{
+  padding-top: 100px;
+  font-family: font-family: Open Sans,sans-serif;
+  color: #333;
+  background-color: #f2f2f2;
+}
+
+h1
+{
+  font-size: 36px;
+  font-weight: bold;
+  color: #333;
+  margin: 30px;
+}
+
+h2
+{
+  font-size: 30px;
+  font-weight: bold;
+  color: #333;
+  margin: 30px;
+}
+
+p
+{
+  font-size: 22px;
+  line-height: 1.5;
+  margin-left: 1em;
+  margin-right: 1em;
+  text-align: justify;
+}
+
+.pics
+{
+  text-align: center;
+  font-size: 15px;
+  line-height: 1;
+  margin: 2px;
+}
+
+.links
+{
+  color: #333;
+  text-align: left;
+  font-size: 22px;
+  line-height: 1;
+  margin: 0 0 20px 50px;
+
+}
+
+.row
+{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 1em;
+}
+
+.grid
+{
+  width: 33.33%;
+  padding: 10px;
+  text-align: center;
+}
+.center
+{
+  text-align: center;
+}
+
+.text_and_images
+{
+  display: flex;
+  align-items: center;
+}
+
+.images
+{
+  max-height: 250px;
+  /* margin: 20px; */
+  vertical-align: top;
+
+}
+
+.carousel_style
+{
+  border: 15px solid;
+  width: 65%;
+  padding: 20px;
+  margin: auto;
+}
+
+.alpaca
+{
+  text-align: right;
+  line-height: 0;
+}
+
+.background_dog
+{
+  background-image: url(pics/background.avif);
+  background-repeat: repeat;
+  background-size: 200px;
+}
+
+.margin
+{
+  margin: 50px 1em 50px 1em;
+}

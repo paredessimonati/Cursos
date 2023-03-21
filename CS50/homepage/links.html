@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <!-- <script src="https://code.jquery.com/jquery-1.10.2.js"></script> -->
+    <link href="styles.css" rel="stylesheet">
+    <title>Borzoi Life</title>
+</head>
+<body>
+    <header>
+        <!--Navigation bar-->
+        <div id="nav-placeholder">
+
+        </div>
+        <script src="//code.jquery.com/jquery.min.js"></script>
+        <script>
+            $.get("navbar.html", function(data){
+                $("#nav-placeholder").replaceWith(data);
+            });
+            </script>
+        <!--end of Navigation bar-->
+    </header>
+        <main>
+          <h2 class="center">Breed Information</h2>
+          <a href="https://www.akc.org/dog-breeds/borzoi/">
+            <p class="links">American Kennel Club</p>
+            </a>
+            <p class="links">
+              Detailed overview of the borzoi breed, including their history, personality, and care requirements.
+            </p>
+            <a href="https://www.borzoiclubofamerica.org/">
+              <p class="links">Borzoi Club of America</p>
+            </a>
+            <p class="links">
+              This is the official website of the Borzoi Club of America, where you can find information about the breed, events, and breeding programs.
+            </p>
+            <a href="https://knowyourmeme.com/memes/borzoi-long-nose-dog">
+              <p class="links">Borzoi Info</p>
+            </a>
+            <p class="links">
+              Very accurate info about the breed, origins, spread, media, etc.
+            </p>
+            <a href="https://www.forum.breedia.com/dogs/borzoi/">
+              <p class="links">Borzoi Forums</p>
+            </a>
+            <p class="links">
+              This is a forum for Borzoi owners, breeders, and enthusiasts to share information, ask questions, and connect with each other.
+            </p>
+            <a href="https://en.wikipedia.org/wiki/Borzoi">
+              <p class="links">Borzoi Wiki</p>
+            </a>
+            <p class="links">
+              This page provides a comprehensive overview of the Borzoi breed, including its history, physical characteristics, and personality.
+            </p>
+
+            <a href="https://www.reddit.com/r/borzoi/">
+              <p class="links">r/borzoi</p>
+            </a>
+            <p class="links">
+              This is a subreddit about the borzoi breed, enter at your own risk, highly doses of memes.
+            </p>
+          </main>
+    </body>
+</html>

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+        <!-- <script src="https://code.jquery.com/jquery-1.10.2.js"></script> -->
+        <link href="styles.css" rel="stylesheet">
+        <title>Borzoi Life</title>
+    </head>
+    <body>
+        <header>
+            <!--Navigation bar-->
+            <div id="nav-placeholder">
+
+            </div>
+            <script src="//code.jquery.com/jquery.min.js"></script>
+            <script>
+                $.get("navbar.html", function(data){
+                    $("#nav-placeholder").replaceWith(data);
+                });
+                </script>
+            <!--end of Navigation bar-->
+        </header>
+        <main>
+            <img src="pics/girnalda.png" style="width:100%">
+            <h2 class="center">Dancing with Dali</h2>
+            <div class="carousel_style">
+                <div id="carouselExample" class="carousel slide">
+                    <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="pics/baile1.JPG" class="d-block w-100 carousel_image" alt="Olga Bailando Cueca con Dali">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="pics/baile2.JPG" class="d-block w-100 carousel_image" alt="Olga Bailando Cueca con Dali">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="pics/baile3.JPG" class="d-block w-100 carousel_image" alt="Olga Bailando Cueca con Dali">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="pics/baile4.JPG" class="d-block w-100 carousel_image" alt="Olga Bailando Cueca con Dali">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="pics/baile5.JPG" class="d-block w-100 carousel_image" alt="Olga Bailando Cueca con Dali">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="pics/baile6.JPG" class="d-block w-100 carousel_image" alt="Olga Bailando Cueca con Dali">
+                    </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+            <p> </p>
+            <div>
+                <p>September 18th in Chile is a day filled with festivities and celebration! The country comes together to mark its independence from Spain in 1810, and the celebration is all about the rich Chilean culture, food, drinks, and of course, the unforgettable dance - "La Cueca."</p>
+
+                <p>La Cueca is the national dance of Chile and is performed with so much energy and enthusiasm that you can feel the passion for the country in every step. It is a lively and rhythmical dance that involves a couple, with the man waving a handkerchief and the woman twirling her skirt, symbolizing the courtship between a rooster and a hen. And if you thought two humans dancing La Cueca was impressive, just wait until you see two borzois join in on the fun! That's right, even our furry friends love to get in on the action!</p>
+
+                <p>But let's not forget about the food, because September 18th wouldn't be complete without a good old Chilean "asado." This traditional barbecue is a staple at any celebration, and the aroma of grilled meat, vegetables, and potatoes sizzling on the grill will have your taste buds salivating. And of course, what's a celebration without a drink in hand? Chicha, a traditional Chilean beverage made from fermented fruit, is the perfect refreshment on a hot day.</p>
+
+                <p>In short, September 18th in Chile is a day filled with laughter, good food, and of course, unforgettable dance moves. So join in on the festivities, grab an empanada, and let's dance the day away!</p>
+            </div>
+        </main>
+    </body>
+</html>
+
+

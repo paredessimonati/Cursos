@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+        <!-- <script src="https://code.jquery.com/jquery-1.10.2.js"></script> -->
+        <link href="styles.css" rel="stylesheet">
+        <title>Borzoi Life</title>
+    </head>
+    <body>
+        <header>
+            <!--Navigation bar-->
+            <div id="nav-placeholder">
+
+            </div>
+            <script src="//code.jquery.com/jquery.min.js"></script>
+            <script>
+                $.get("navbar.html", function(data){
+                    $("#nav-placeholder").replaceWith(data);
+                });
+                </script>
+            <!--end of Navigation bar-->
+        </header>
+        <main>
+          <h1 class="center">Borzois Borzois Borzois</h1>
+
+          <p>Meet the speedy sloths of the dog world - the Borzois! These lanky canines may look like they're ready to race, but in reality, they love nothing more than lounging on the couch. These pooches are the ultimate couch potatoes and will gladly spend the day snoozing away, only waking up for a quick stretch and maybe a biscuit or two.</p>
+
+          <p>But don't let their love for naps fool you, these dogs are surprisingly athletic and are excellent runners. They were originally bred to hunt in Russia and were used to chase down wolves and other big game. Despite their hunting background, Borzois are incredibly gentle and affectionate dogs that make great family pets.</p>
+
+          <div class="row">
+            <div class="grid">
+              <img src="pics/olgasillon.jpg" alt="Olga fast asleep" class="img-fluid rounded mb-3">
+              <p class="pics">Olga sitting on the couch</p>
+            </div>
+            <div class="grid">
+              <img src="pics/irinachancho.jpg" alt="Irina playing with toy" class="img-fluid rounded mb-3">
+              <p class="pics">Irina with her new toy</p>
+            </div>
+            <div class="grid">
+              <img src="pics/rusty.jpg" alt="Rusty, the border collie" class="img-fluid rounded mb-3">
+              <p class="pics">Rusty the border collie</p>
+            </div>
+          </div>
+
+          <p>And now, let's talk about the grumpy old Border Collie brother. These two breeds couldn't be more different! While the Borzoi is content to laze around all day, the Border Collie is always on the move, herding and working. The grumpy old Border Collie brother will always be in the mood to play, but just not with them... unless the game is to chase and herd them. It's a funny sight to see the energetic and high-strung Border Collie paired with the laid-back and relaxed Borzois, but somehow these two opposites manage to make it work. </p>
+
+          <p>So, if you're looking for a fun-loving, couch potato companion with a side of athleticism, a Borzoi might just be the perfect pup for you! And who knows, you might just end up with a grumpy old Border Collie brother too!</p>
+
+
+        </main>
+    </body>
+</html>

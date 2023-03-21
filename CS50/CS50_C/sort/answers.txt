@@ -1,0 +1,19 @@
+sort1 uses: Bubble sort
+
+How do you know?: Because the run time in the random file and reversed is very long while the run time
+in the sorted file is very short which makes me believe omega(n) for best case and O(n^2) for worst case.
+
+sort2 uses: Merge sort
+
+How do you know?: Run time is very short in all scenarios compared to the other 2 algorithms.
+
+sort3 uses: Selection sort
+
+How do you know?: Run time is long across the board even in the best case scenario (sorted 50000) pointing to n^2 in all cases.
+
+
+
+            random50000         sorted 50000        reversed 50000
+sort 1          8.649               0.939               6.531
+sort 2          0.636               0.866               0.947
+sort 3          3.962               3.713               5.643
